@@ -6,7 +6,7 @@ var cors = require('cors');
 const mongoose = require('mongoose');
 const axios = require('axios').default;
 var db;
-const port = 9000;
+const port = 80;
 app.listen(port);
 app.use(bodyParser.json());
 app.use(cors());
